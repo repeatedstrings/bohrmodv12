@@ -1,7 +1,7 @@
 {
-	"variants": {
-		"normal": {
-			"model": "bohr:bohr_block"
-		}
-	}
+  "variants":{
+    "normal":{
+      "model":"bohr:bohr_block"
+    }
+  }
 }

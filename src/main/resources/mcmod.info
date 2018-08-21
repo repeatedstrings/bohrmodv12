@@ -1,8 +1,8 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "bohr",
+  "name": "bohr",
+  "description": "The best bohr mod that ever did mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

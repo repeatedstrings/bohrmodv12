@@ -1,6 +1,4 @@
 {
-"parent": "block/cube_all",
-  "textures": {
-    "all": "bohr:blocks/bohr_block"
-  }
+  "parent":"block/cube_all",
+  "textures":{"all":"bohr:blocks/bohr_block"}
 }
