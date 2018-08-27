@@ -3,8 +3,7 @@ package Bohr;
 import Bohr.Config.Config;
 import Bohr.Handlers.BohrBlockHandler;
 import Bohr.Handlers.BohrItemHandler;
-import Bohr.Handlers.BohrRecipeHandler;
-import Bohr.Handlers.BohrToolHandler;
+import Bohr.Handlers.BohrWorldHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -16,26 +15,21 @@ public class BohrMod {
     @EventHandler
     public void preinit(FMLPreInitializationEvent event){
         BohrBlockHandler.preInit();
+        BohrWorldHandler.preInit();
         BohrItemHandler.preInit();
-        BohrRecipeHandler.preInit();
-        BohrToolHandler.preInit();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event){
         BohrBlockHandler.init();
+        BohrWorldHandler.init();
         BohrItemHandler.init();
-        BohrRecipeHandler.init();
-        BohrToolHandler.init();
-
     }
 
     @EventHandler
     public void postinit(FMLPostInitializationEvent event) {
         BohrBlockHandler.postInit();
+        BohrWorldHandler.postInit();
         BohrItemHandler.postInit();
-        BohrRecipeHandler.postInit();
-        BohrToolHandler.postInit();
-
     }
 }
